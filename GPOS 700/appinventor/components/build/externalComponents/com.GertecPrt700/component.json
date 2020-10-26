@@ -1,0 +1,82 @@
+{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2020-09-14T18:04:03+0000",
+ "nonVisible": "true",
+ "iconName": "",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "ImpressoraOutput",
+   "description": "Finalizar impressão",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "ImprimirTexto",
+   "description": "Asigna el valor del cateto A. El separador decimal es el punto.",
+   "params": [{
+    "name": "texto",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "getStatusImpressora",
+   "description": "Verifica o status da impressora",
+   "params": [],
+   "returnType": "text"
+  },
+  {
+   "deprecated": "false",
+   "name": "imprimeBarCode",
+   "description": "Asigna el valor del cateto A. El separador decimal es el punto.",
+   "params": [
+    {
+     "name": "texto",
+     "type": "text"
+    },
+    {
+     "name": "type",
+     "type": "text"
+    }
+   ],
+   "returnType": "boolean"
+  },
+  {
+   "deprecated": "false",
+   "name": "imprimeImagem",
+   "description": "Imprimir Imagem",
+   "params": [{
+    "name": "uri",
+    "type": "text"
+   }],
+   "returnType": "boolean"
+  }
+ ],
+ "blockProperties": [
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "avancaLinha",
+   "description": "Pular Linhas",
+   "type": "number"
+  },
+  {
+   "rw": "write-only",
+   "deprecated": "false",
+   "name": "setConfigImpressao",
+   "description": "Set config",
+   "type": "component"
+  }
+ ],
+ "helpUrl": "",
+ "type": "com.GertecPrt700.GertecPrt700",
+ "androidMinSdk": 7,
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "GertecPrt700",
+ "helpString": "Gertec Funções",
+ "properties": [],
+ "events": []
+}
