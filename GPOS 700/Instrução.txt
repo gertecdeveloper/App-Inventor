@@ -1,0 +1,3 @@
+1- !Para utilizar as funções NFC é necessário a instalação do Apk LeitorNFC.apk(Dentro da pasta de Apks)!
+2 -!Importe o arquivo GertecOne_AppInventor.aia(Dentro da pasta Projeto) no sua área do App Inventor para ter um exemplo de utilização das funções!
+3- !Importante assinar o APK gerado no App Inventor para utilizar-lo na GPOS 700!
